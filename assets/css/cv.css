@@ -62,7 +62,17 @@ a#pdf:hover { background: #222; }
 #srt-ttab img.last { margin-top: 20px }
 
 
-.yui-gf .yui-u{width:80.2%;}
-.yui-gf div.first{width:12.3%;}
+.yui-gf .yui-u { width:80.2%; }
+.yui-gf div.first { width:12.3%; }
+
+.yui-t7{
+    text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  border-radius: 20px;
+}
 
 

@@ -1,27 +1,29 @@
-.body{
+body{
   margin: 0;
   padding: 0;
   font-family: montserrat;
-  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  background: linear-gradient(120deg, #ec6b5a, #8029e2);
   height: 100vh;
 }
 
-.container h1:before,
-.container h1:after {
-content: “”;
+.login h1:before,
+.login h1:after {
+content: "";
 background: black;
 position: absolute; 
-height: 2px; 
+height: 1px; 
 width: 120px;
 }
 
-.container h1:before {
-  left: 0;
-  }
+.login h1:before {
+left: 0;
+top: 40px;
+}
   
-  .container h1:after {
-  right : 0;
-  }
+.login h1:after {
+right : 0;
+top: 40px;
+}
 
 
 
@@ -66,10 +68,10 @@ width: 120px;
   border-radius: 5px;
 }
 
-.login .rgs{
+.login .register{
   width: 310px;
   height: 40px;
-  background-color: #0DC613;
+  background: linear-gradient(120deg, #52e452, #11da4d);
   cursor: pointer;
   border-radius: 5px;
 }
